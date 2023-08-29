@@ -1,0 +1,159 @@
+Document:System Requirement Specification Document
+
+Title:Online Movie Ticket Booking System
+
+
+Objective (Purpose):
+	Online Movie Ticket Booking System is a web application that is intended to provide complete solutions for
+vendors as well as customers through a single get way using the internet as the sole medium.
+It will enable vendors to setup an online database containing information about their theaters,
+cinema halls, and amphitheatres. It will enable the customer to browse through the various
+shows and book their tickets online without any need to be physically present at the booking
+place. The administration module will enable a system administrator to approve and reject
+requests for new shows and maintain various lists of shows category.
+
+Scope:
+	This project is aimed to provide the customers facility to book tickets for different cinema halls online,
+through which they can book tickets anytime, anywhere.Our online movie ticket booking system is to provide another way for the customer
+to buy cinema ticket. It is an automatic system. After inserting the data to database, staff need not to due with the order 
+receive through the system. In fact,there is similar system on the internet, but there is no refund method found in the 
+existing system.The user may easily come to know about the newly released movies and make their own choicehence, system can 
+also be implemented in real life also.
+	The goals of our system are:
+	1.To provide a anytime anyplace service for the customer.
+	2.To provide refund which is not available in the existing system.
+	3.To minimize the number of staff at the ticket box.
+	4.To promote the film on the internet.
+	5.To increase the profit6To obtain statistic information from the booking record.
+
+Glossary/Definations:
+	WCAG- Web Content Accessibility Guidelines.
+	
+
+Requirements:
+
+Functional Requirements:
+
+	Functional requirements for an Online Movie Ticket Booking System outline the specific features and capabilities 
+that the system should have in order to fulfill its intended purpose. Here are some functional requirements for such a system:
+
+1.User Registration and Authentication:
+
+	Users can create new accounts with a unique username and password.
+Users can log in using their credentials or through third-party authentication (e.g., social media accounts).
+Password reset and account recovery options are available.
+
+2.Event Details:
+
+Each event listing includes event name, date, time, venue, description, and available ticket types.
+Users can view detailed information about an event before making a booking.
+
+3.Seat Selection and Booking:
+
+Users can select available seats from a seating chart or seat map.
+The system prevents overbooking by tracking seat availability in real-time.
+Users can add multiple seats to their booking if needed.
+
+4.Multiple Ticket Types and Pricing:
+
+Different ticket types (e.g., standard, VIP, child) may be available for an event, each with its own pricing.
+Users can select their preferred ticket type and quantity during the booking process.
+
+5.Shopping Cart:
+
+Users can add, remove, or modify their selected seats in a shopping cart before proceeding to payment.
+The cart displays the total cost of the selected tickets.
+
+6.Payment Processing:
+
+Users can choose from various payment methods, such as credit/debit cards, digital wallets, and online payment gateways.
+The system securely processes payments and generates payment receipts.
+Payment processing is integrated with relevant third-party payment gateways.
+
+7.Booking Confirmation:
+
+Users receive an electronic booking confirmation via email and/or SMS, containing event details, seat information, payment
+details, and a booking reference.
+
+8.User Profile and Booking History:
+
+Users have a profile where they can view and update their personal information.
+Users can view their booking history, including past and upcoming events.
+
+9.Cancellation and Refunds:
+
+Users can request ticket cancellations and refunds within a specified timeframe.
+The system processes cancellations and refunds according to the established refund policy.
+
+10.Event Organizer Interface:
+
+Event organizers have a separate interface to manage events, seat availability, and ticket pricing.
+Organizers can generate reports on ticket sales and attendance.
+
+11.Notification System:
+
+The system sends automated notifications to users for booking confirmations, cancellations, and important event updates.
+
+12.Accessibility and Mobile Responsiveness:
+
+The user interface is accessible and optimized for both desktop and mobile devices.
+
+13.Security and Privacy:
+
+User data, including personal information and payment details, is encrypted and securely stored.
+Access to user data is restricted based on user roles and permissions.
+
+14.Language and Localization:
+
+The system supports multiple languages and provides localization options for different regions.
+
+
+Non-Functional Requirements:
+
+	Non-functional requirements for an Online Ticket Booking System describe the quality attributes and characteristics
+ of the system that go beyond its specific functionalities. These requirements focus on aspects such as performance, security,
+ usability, and other important qualities that contribute to the overall user experience and system reliability. Here are some
+ non-functional requirements for such a system:
+
+1.Performance:
+
+The system should provide fast response times for all user interactions (e.g., page loading, seat selection, payment processing),
+ with a maximum response time of X seconds.
+
+2.Scalability:
+
+The system architecture should allow for easy scalability to accommodate an increasing number of users and events.
+
+3.Reliability:
+
+The system should have a high availability rate, aiming for at least 99.9% uptime over a given period.
+
+4.Security:
+
+User data, including personal information and payment details, should be encrypted during transmission and storage.
+
+5.Accessibility:
+
+The system should adhere to accessibility standards(such as WCAG) to ensure that it is usable by people with disabilities.
+
+6.Compatibility:
+
+The system should work across different web browsers (e.g., Chrome, Firefox, Safari) and devices (desktop, tablets, smartphones).
+
+7.Localization:
+
+The system should support multiple languages and regions to cater to a diverse user base.
+
+8.Feedback and Error Handling:
+
+The system should provide clear error messages and instructions to guide users in case of errors or issues.
+
+
+
+
+
+
+
+
+
+
